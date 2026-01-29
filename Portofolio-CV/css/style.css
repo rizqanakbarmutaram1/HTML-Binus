@@ -1,0 +1,114 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Franklin Gothic Heavy' ;
+}
+
+/* Panel Kiri */
+.left-panel {
+  background: linear-gradient(#D1D8E2, #000, #333 );
+  min-height: 100%;
+  padding: 20px;
+  border-radius: 15px 0 0 15px;
+}
+
+/* Foto Profil */
+.profile-box {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+
+  border-radius: 50%;
+  border: 4px solid white;
+
+  overflow: hidden;
+  background: #000;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+.profile-box img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center top;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #ddd;
+}
+
+/* Section Kiri */
+.section {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.section h5 {
+  border-bottom: 1px solid white;
+  padding-bottom: 5px;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin: 5px 0;
+}
+
+/* Panel Kanan */
+.right-panel {
+  background: linear-gradient( #D1D8E2, #0dcaf0, #f8f9fa);
+  padding: 30px;
+  border-radius: 0 15px 15px 0;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.content h4 {
+  font-weight: bold;
+}
+
+hr {
+  width: 80px;
+  border: 2px solid #333;
+}
+
+.cv-container {
+  max-width: 900px;
+}
+
+.fullpage {
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+p {
+  margin: 5px;
+  line-height: 1.2;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.text {
+  margin-bottom: 5px;
+}
+
