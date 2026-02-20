@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RESUME</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .underline, .upper {
+            text-decoration: underline black;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+     <button id="toggleMode">Ganti Mode</button>
+
+    <h1>RESUME</h1>
+
+    <h2 class="h2Resume"><span class="underline, upper">Syarat</span></h2>
+    <hr>
+    <h2 id="ulH2"><span class="underline">Keahlian</span></h2>
+    <ul class="ul1" type="disc">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <hr>
+    <h2 id="ulH2"><span class="underline">Pendidikan Formal</span></h2>
+    <ul type="none">
+        <li>SDN SUKAPURA 161</li>
+        <li>SMPI ALWASHLIYAH</li>
+        <li>SMKS SETIA BHAKTI</li>
+    </ul>
+    <hr>
+    <h2 id="ulH2"><span class="underline, upper">Pengalaman Kerja</span></h2>
+    <hr>
+    <h2 id="ulH2"><span class="underline, upper">Pelatihan Sertifikasi / Lisensi</span></h2>
+    <ul class="ul2" type="disc">
+        <li>Pelatihan Kursus Mobil Manual</li>
+    </ul>
+
+    <footer>
+        <a href="index.html">Kembali Ke Home</a>
+    </footer>
+
+    <script>
+        var h1 = document.getElementsByTagName("h1");
+        setInterval(function () {
+            h1[0].style.color = "red";
+
+            setTimeout(function () {
+                h1[0].style.color = "green";
+            }, 500)
+        }, 1000);
+
+        var h2 = document.getElementsByTagName("h2");
+            setInterval(function () {
+                h2[0].style.color = "red";
+                h2[1].style.color = "red";
+                h2[2].style.color = "red";
+                h2[3].style.color = "red";
+                h2[4].style.color = "red";
+
+                setTimeout(function () {
+                    h2[0].style.color = "green";
+                    h2[1].style.color = "green";
+                    h2[2].style.color = "green";
+                    h2[3].style.color = "green";
+                    h2[4].style.color = "green";
+                }, 500)
+            }, 1000);
+    </script>
+
+    <script src="js/script.js"></script>
+   
+</body>
+</html>

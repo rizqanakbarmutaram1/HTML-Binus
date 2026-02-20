@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ABOUT US</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .underline, .upper{
+            text-decoration: underline black;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+     <button id="toggleMode">Ganti Mode</button>
+
+    <h1>ABOUT</h1>
+
+    <h2><span class="underline, upper">Foto Profil</span></h2>
+    <p>
+        <img src="img/Foto Profil.jpg" width="150" height="200"/>
+        <hr>
+    </p>
+    <h3><span class="underline, upper">Profil</span></h3>
+    <p>
+        Nama                        : Rizqan Akbar Mutaram
+        <br>
+        Jenis Kelamin               : Laki-Laki
+        <br>
+        Agama                       : Islam
+    </p>
+
+    <footer>
+        <a href="index.html">Kembali Ke Home</a>
+    </footer>
+    
+    <script>
+         var h1 = document.getElementsByTagName("h1");
+            setInterval(function () {
+                h1[0].style.color = "blue";
+
+                setTimeout(function () {
+                    h1[0].style.color = "green";
+                }, 500)
+            }, 1000);
+
+           var h2 = document.getElementsByTagName("h2");
+            setInterval(function () {
+                h2[0].style.color = "blue";
+
+                setTimeout(function () {
+                    h2[0].style.color = "green";
+                }, 500)
+            }, 1000);
+
+            var h3 = document.getElementsByTagName("h3");
+            setInterval(function () {
+                h3[0].style.color = "blue";
+
+                setTimeout(function () {
+                    h3[0].style.color = "green";
+                }, 500)
+            }, 1000);
+    </script>
+
+     <script src="js/script.js"></script>
+
+</body>
+</html>

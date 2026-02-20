@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+        .underline, .upper {
+            text-decoration: underline black;
+            text-transform: uppercase;
+        }
+     </style>
+</head>
+<body>
+
+     <button id="toggleMode">Ganti Mode</button>
+
+    <h1>VIDEO</h1>
+
+   <header>
+            <h1><span class="underline, upper">Contoh vidio di HTML</span></h1>
+    </header>
+    <video controls>
+      <source src="video/video.mp4" type="video/mp4">
+      Browsermu tidak mendukung tag ini, upgrade donk!
+    </video>
+    <br>
+    <a href="index.html">Kembali ke home</a>
+
+    <script>
+        var h1 = document.getElementsByTagName("h1");
+            setInterval(function () {
+                h1[0].style.color = "blue";
+                h1[1].style.color = "blue";
+
+                setTimeout(function () {
+                    h1[0].style.color = "green";
+                    h1[2].style.color = "green";
+                }, 500)
+            }, 1000);
+    </script>
+
+   <script src="js/script.js"></script>
+
+</body>
+</html>
